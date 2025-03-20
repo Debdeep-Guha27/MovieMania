@@ -1,0 +1,30 @@
+/* Favourites Page Container */
+.Favourites {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #0a0a0a;
+    text-align: center;
+}
+
+/* Heading with Neon Glow */
+.Favourites h2 {
+    font-size: 28px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Neon Glow Effect */
+@keyframes glow {
+    0% {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px rgba(255, 0, 0, 0.6);
+    }
+    100% {
+        text-shadow: 0px 0px 10px red, 0px 0px 20px rgba(255, 0, 0, 1);
+    }
+}
