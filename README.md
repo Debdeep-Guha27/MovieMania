@@ -18,7 +18,7 @@ A sleek and fast *React-based Movie App* built with *Vite*. Discover trending mo
 
 ### 📸 Demo
 
-[Live Demo](https://movie-mania-app-seven.vercel.app/) <!-- Replace with actual link -->
+[Live Demo](https://movie-mania-rouge-mu.vercel.app/) <!-- Replace with actual link -->
 
 ---
 
